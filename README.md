@@ -10,7 +10,7 @@ Installing archetype within your local repository
 
         mvn install archetype:update-local-catalog
 
-* Now you have locally installed archetype. You can delete zip and unpacked folder.
+* Now you have archetype installed locally. You can delete zip and unpacked folder.
 
 Setting up new project
 ----------------

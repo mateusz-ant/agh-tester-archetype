@@ -14,7 +14,7 @@ public class HomeController {
     public String welcome(ModelMap model) {
         model.addAttribute(MESSAGE_ATTR, HELLO_MESSAGE + ".");
 
-        return "";
+        return "home";
     }
 
     @RequestMapping(value = "/{name}", method = RequestMethod.GET)
@@ -22,6 +22,6 @@ public class HomeController {
 
         model.addAttribute(MESSAGE_ATTR, HELLO_MESSAGE + " " + name + ".");
 
-        return "";
+        return "home";
     }
 }
